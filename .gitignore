@@ -1,0 +1,16 @@
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.jekyll-cache
+.bundle
+.sass-cache
+node_modules
+package.json
+notes.txt
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/

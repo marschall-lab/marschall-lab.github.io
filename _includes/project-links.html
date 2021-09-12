@@ -1,0 +1,23 @@
+{% assign proj = include.proj %}
+
+<ul class="link-list">
+
+{% if proj.home %}
+  <li><a href="{{ proj.home }}">home</a></li>
+{% endif %}
+	
+{% if proj.download %}
+  <li><a href="{{ proj.download }}">download</a></li>
+{% endif %}
+	
+{% if proj.docs %}
+  <li><a href="{{ proj.docs }}">documentation</a></li>
+{% endif %}
+	
+{% if proj.source %}
+  <li><a href="{{ proj.source }}">code</a></li>
+{% endif %}
+
+{% if proj.pubs %}
+  <li><a href="{{ site.baseurl }}{{ proj.url }}">publications</a></li>
+{% endif %}

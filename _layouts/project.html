@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<!-- collect publications -->
+{% assign array = "" | split: "" %}
+{% for pubName in page.pubs %}
+	{% assign array = array | push : site.data.publications[pubName] %}
+{% endfor %}
+
+<article class="post">
+  <h1 class="page-name">{{ page.name }} publications</h1>
+{% assign sorted = array | sort: "date" %}
+{% assign sorted = sorted | reverse %}
+{% for pub in sorted limit: site.data.settings.person-page-pubs %}
+	{% include publication.html pub=pub %}
+{% endfor %}
+{{ content }}
+</article>
