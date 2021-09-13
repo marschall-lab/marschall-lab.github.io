@@ -1,4 +1,4 @@
-Tool page format
+Project page format
 ================
 
 The file name must be

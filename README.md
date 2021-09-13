@@ -50,6 +50,8 @@ necessary formatting.
 
 ##### Personal page:
 
+[Personal page README](_people/README.txt)
+
 Markdown file under:
 
 `_people/`
@@ -60,11 +62,15 @@ Portrait (PNG/JPG) under:
 
 ##### Publication page:
 
+[Publication page README](_data/publications/README.txt)
+
 YAML file under:
 
 `_data/publications`
 
 ##### Project page:
+
+[Project page README](_projects/README.txt)
 
 Markdown file under:
 
@@ -72,12 +78,15 @@ Markdown file under:
 
 ##### News (post) page:
 
+[News page README](_posts/README.txt)
+
 Markdown file under:
 
 `_posts/`
 
-
 ##### New institute / lab
+
+[Institute page README](_institutes/README.txt)
 
 Markdown file under:
 
