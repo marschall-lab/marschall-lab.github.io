@@ -17,11 +17,14 @@ look as expected - if they don't, don't push them to the repo...
 
 #### 1. Create Conda environment
 
-`conda env create -f marschall-lab.github.io/build_env/jekyll.yml -p ./website_env`
+`conda env create -f marschall-lab.github.io/build_env/conda_jekyll.yml -p ./website_env`
 
 `conda activate ./website_env`
 
 #### 2. Install necessary packages
+
+Use your favorite package manager to install `ruby` and `ruby-devel`
+or equivalent, if they aren't already.
 
 ```bash
 gem install jekyll  # Simple, blog-aware, static site engine
