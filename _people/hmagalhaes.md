@@ -4,6 +4,8 @@ pub-names:
 - Magalhaes H
 degree: M.Sc.
 email: hugo.magalhaes@hhu.de
+scholar: https://scholar.google.com/citations?hl=pt-PT&user=UjDCOuwAAAAJ
+twitter: https://twitter.com/hugocarmaga
 role: PhD student
 institutes:
 - hhu

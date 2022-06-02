@@ -23,13 +23,13 @@ collections:
   people:
     output: true
   person-publications:
-    output: true
+    output: false
   person-projects:
     output: true
   person-posts:
     output: true
   institutes:
-    output: false
+    output: true
 
 defaults:
   -
