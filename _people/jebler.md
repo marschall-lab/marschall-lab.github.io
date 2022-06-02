@@ -4,7 +4,7 @@ pub-names:
 - Ebler J
 degree: M.Sc
 email: ebler@hhu.de
-twitter: https://twitter.com/janaebler
+twitter: janaebler
 github: eblerjana
 role: PhD student
 institutes:
