@@ -1,5 +1,5 @@
 ---
-name: Hugo Magalhaes
+name: Hugo Magalhães
 pub-names:
 - Magalhaes H
 degree: M.Sc.
