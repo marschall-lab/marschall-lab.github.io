@@ -1,7 +1,8 @@
 landing-news-posts: 2
-landing-pubs: 3
+landing-pubs: 5
 
 landing-software:
+ - pangenie
  - whatshap
  - graphaligner
  - mbg
