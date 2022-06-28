@@ -6,6 +6,7 @@ degree: Dr. rer. nat.
 email: sven.willger@hhu.de
 twitter: sven_willger
 github: svenwillger
+scholar: https://scholar.google.com/citations?hl=de&user=KZ_6ZcYAAAAJ
 orcid: 0000-0002-9736-2926
 role: PostDoc
 institutes:
