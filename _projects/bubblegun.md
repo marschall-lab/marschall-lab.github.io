@@ -6,7 +6,7 @@ download: https://github.com/fawaz-dabbaghieh/bubble_gun/releases
 desc: A general-purpose tool for detecting Bubbles and Superbubbles in genome graphs.
 
 pubs:
- - 2021-03-23-Dabbaghie
+ - 2022-07-22-Dabbaghie
 
 people:
  - fdabbaghie
