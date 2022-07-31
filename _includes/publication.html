@@ -31,6 +31,7 @@
 {% assign pasted = pasted | slice: 1, pasted.size - 2 %}
 {% assign authors = pasted | split: ':' %}
 {% assign string = '' %}
+{% assign dicks = authors | size | minus: pub.jointlast %}
 
 {% for author in authors %}
 	{% if limit == false or author contains '<' or forloop.index == 1 or forloop.index == authors.size %}
@@ -42,6 +43,12 @@
 			{% assign author = author | replace: " ", "&nbsp;" %}
 		{% endunless %}
 		{% assign string = string | append: author %}
+		{% if forloop.index <= pub.jointfirst %}
+			{% assign string = string | append: "*" %}
+		{% endif %}
+		{% if forloop.index > dicks %}
+			{% assign string = string | append: "<xsup>†</xsup>" %}
+		{% endif %}
 	{% else %}
 		{% if skipped == false %}
 			{% assign string = string | append: " &hellip; " %}
