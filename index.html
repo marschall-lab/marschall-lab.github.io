@@ -85,7 +85,7 @@ permalink: /
 {% for pub in sorted limit: site.data.settings.landing-pubs %}
 	{% include publication.html pub=pub %}
 {% endfor %}
-</div>
+<br><div style="font-size: 10px">Legend: * joint first author; <xsup>†</xsup> joint last author</div>
 {% endif %}
 
 {% if site.data.settings.landing-software %}

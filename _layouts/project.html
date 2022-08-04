@@ -15,5 +15,6 @@ layout: default
 {% for pub in sorted limit: site.data.settings.person-page-pubs %}
 	{% include publication.html pub=pub %}
 {% endfor %}
+<br><div style="font-size: 10px">Legend: * joint first author; <xsup>†</xsup> joint last author</div>
 {{ content }}
 </article>
