@@ -13,6 +13,18 @@
 /* BASE RULES */
 /**************/
 
+$prusblue: #0b2e4f;
+$airblue: #819ebb;
+$secgrey: #3a3b3c;
+$pinklace: #edd6ff;
+
+$basecol: $pinklace;
+$textcol: $prusblue;
+$highcol: $airblue;
+$hovercol: $airblue;
+$titlecol: #3a3b3c;
+
+
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -21,15 +33,18 @@ html {
 body {
 	background: $white;
   font: 16px/1.4 $helvetica;
-  color: black;//$darkGray;
+  color: $textcol;
     font-weight: 300;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding-bottom: 0px;
+  padding-top: 10px;
   width: 100%;
+  margin-top: -6px;	// relying on the logo pic here
+  margin-bottom: -12px;	// relying on the logo pic here
 }
 
 .icons {
@@ -41,7 +56,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $textcol;
 
 //  line-height: 1.7;
   margin: 1em 0 15px;
@@ -62,7 +77,7 @@ h1 {
 }
 
 .page-name {
-	color: gray;
+	color: $titlecol;
 	text-align: right;
 	display: block;
 	margin: 0px;
@@ -75,6 +90,7 @@ h2 {
 	padding: 0px;
 	margin: 25px 0px 5px 0px;
     letter-spacing: 1px;
+    color: $titlecol;
 }
 
 .section
@@ -85,7 +101,7 @@ h2 {
 
 .sectionTitle {
 	text-align: center;
-	color: gray;
+	color: $titlecol;
 	line-height: 1;
 //	border-top: 1px solid lightGray;
 	font-size: 30px;
@@ -104,7 +120,7 @@ h2 {
   }
 }
 .subheading {
-    color: gray;
+    color: $titlecol;
 	margin: 0px 0px 15px 0px;
 	border-bottom: 1px solid lightGray;
 }
@@ -118,7 +134,7 @@ h3 {
 
 h4 {
   font-size: 16px;
-  color: $gray;
+  color: $textcol;
 }
 
 p {
@@ -126,11 +142,11 @@ p {
 }
 
 a {
-  color: dodgerblue;
+  color: $highcol;
   text-decoration: none;
 	//cursor: pointer;
   &:hover, &:active {
-    color: gray;//$blue;
+    color: $hovercol;
   }
 }
 
@@ -221,7 +237,7 @@ a:hover {filter:grayscale(100%);}
 
 .monogram {
 	text-align: center;
-	color: gray;
+	color: $hovercol;
 a:hover {filter:grayscale(100%);}
 }
 
@@ -232,7 +248,7 @@ a:hover {filter:grayscale(100%);}
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $palecol;
 }
 
 .pub-title {
@@ -241,17 +257,17 @@ a:hover {filter:grayscale(100%);}
 
 .pub-authors {
 	font-size: 14px;
-	color: gray;
+	color: $titlecol;
 }
 
 .pub-journal {
 	font-style: italic;
-	color: gray;
+	color: $titlecol;
 //	font-weight: bold;
 }
 
 .pub-date {
-	color: gray;
+	color: $titlecol;
 }
 
 // Specify the color of the selection
@@ -266,14 +282,14 @@ a:hover {filter:grayscale(100%);}
 
 .title
 {
-    color: gray;
+    color: $titlecol;
 //    border-bottom: 1px solid lightGray;
     letter-spacing: 1px;
 }
 
 .accent
 {
-    color: dodgerblue;
+    color: $basecol;
 //    text-decoration: underline;
 //   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
 //   -webkit-text-stroke-width: 1px;
@@ -301,18 +317,18 @@ a:hover {filter:grayscale(100%);}
 //
 
 .wrapper-masthead {
-  margin-bottom: 15px;
-  background-color: dodgerblue;
+  margin-bottom: 5px;
+  background-color: $basecol;
   border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 5px 0;
 
 	vertical-align: middle;
   a {
     &:hover, &:active {
-      color: $yellow;//$blue;
+      color: $hovercol;
     }
   }
 
@@ -410,7 +426,7 @@ a:hover {filter:grayscale(100%);}
   @include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 
@@ -425,7 +441,7 @@ a:hover {filter:grayscale(100%);}
   a {
     &:hover, &:active {
     filter:none;
-      color: $yellow;//$blue;
+      color: $hovercol;
     }
   }
 }
@@ -433,13 +449,15 @@ a:hover {filter:grayscale(100%);}
   a.site-description {
     &:hover, &:active {
     filter:none;
-      color: $yellow;//$blue;
+      color: $hovercol;
     }
+    //font-size: 14px;
+    font-weight: bold;
   }
 
 .site-description {
-  color: lightgrey;
-  font-size: 16px;
+  color: $textcol;
+  font-size: 12px;
 
   @include mobile {
     margin: 3px 0;
@@ -448,12 +466,12 @@ a:hover {filter:grayscale(100%);}
 
 nav {
   float: right;
-  vertical-align: middle;
+//  vertical-align: middle;
 //  width: 50%;
-  margin-top: 0px; // @TODO: Vertically middle align
+  margin-top: 0px; // @TODO: Vertically middle align	← rocket science
 //  margin-right: 15px;
   font-family: $helveticaNeue;
-  font-size: 20px;
+  font-size: 22px;
 
   @include mobile {
     float: none;
@@ -463,9 +481,10 @@ nav {
   }
 
 	div {
-	color: white;
+	color: $textcol;
 	  text-align: justify;
 	  height: 1.5em;
+	  margin-top: -2px;
   @include mobile {
     text-align: center;
     }
@@ -480,14 +499,14 @@ nav {
 //    margin-left: 25px;
   text-align: justify;
   display: inline;
-    color: white; //$darkGray;
+    color: $textcol; //$darkGray;
 //    text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     &:hover, &:active {
     filter:none;
-//      color: $yellow;//$blue;
+//      color: $hovercol;
     }
 
     @include mobile {
