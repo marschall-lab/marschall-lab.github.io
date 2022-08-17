@@ -98,3 +98,18 @@ Markdown file under:
 Logo (PNG/JPG) under:
 
 `img/`
+
+
+#### 5. Theming
+
+For reference, the colors used for the website are, in RGB hexcodes:
+
+- #edd6ff: Pink Lace, masthead background
+- #3a3b3c: Sections header
+
+Logo colors:
+
+- #819ebb: Air Superiority Blue, light blue
+- #0b2e4f: Prussian Blue, dark blue
+
+See also: [Logo README](img/group-logo/README.md).
