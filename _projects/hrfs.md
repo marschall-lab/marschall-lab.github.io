@@ -6,7 +6,7 @@ download:
 desc: Analysis of the set of founder sequences under a homologous recombination model.
 
 pubs:
- - 2022-05-29-Bonnet
+ - 2022-08-26-Bonnet
 
 people:
  - kbonnet
