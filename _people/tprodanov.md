@@ -3,7 +3,7 @@ name: Timofey Prodanov
 pub-names:
 - Prodanov T
 - Prodanov TP
-degree: M.Sc.
+degree: Ph.D.
 email: timofey.prodanov@hhu.de
 twitter: TimofeyProdanov
 github: tprodanov
