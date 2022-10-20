@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- collect publications -->
+{% assign array = "" | split: "" %}
+{% for pubName in page.pubs %}
+	{% assign array = array | push : site.data.publications[pubName] %}
+{% endfor %}
+
+<!-- This section doesn't work and causes the build to stop with an error message 
+
+<article class="post">
+  <h1 class="page-name">{{ page.name }} publications</h1>
+{% assign sorted = array | sort: "date" %}
+{% assign sorted = sorted | reverse %}
+{% for pub in sorted limit: site.data.settings.person-page-pubs %}
+	{% include publication.html pub=pub %}
+{% endfor %}
+<br>
+<div style="font-size: 10px">Legend: * joint first author; <xsup>†</xsup> joint last author</div>
+{{ content }}
+</article>
+
+-->
