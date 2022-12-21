@@ -2,13 +2,14 @@
 name: Samarendra Pani
 pub-names:
 - Pani S
-email: samarendra.pani@students.iiserpune.ac.in
+email: Samarendra.Pani@hhu.de
 github: samarendra-pani
 twitter: PaniSamarendra
-role: Thesis Student
+role: PhD Student
 institutes:
-- iiserp
+- hhu
+- ukd
 portrait: /img/spani.png
-bio: Samarendra is currently pursuing an Integrated BS-MS degree from IISER Pune, India. He is doing his Master's thesis in Marschall Lab on pangenome-based haplotyping using long read sequencing data. His general research interests lie in algorithm development, machine learning, and genomics.
+bio: Samarendra received his BS-MS degree from IISER Pune, India in 2022. He joined Prof. Dr. Marschall's group as a PhD student at Universitätsklinikum Düsseldorf after finishing his MS thesis under him. His research interests include algorithm and pipeline development for inferring genome information like genotype using long reads and a pangenome reference.
 alum: false
 ---
