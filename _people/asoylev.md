@@ -2,7 +2,7 @@
 name: Arda Söylev
 pub-names:
 - Söylev A
-degree: Dr.
+degree: Ph.D.
 email: arda.soylev@hhu.de
 homepage: https://asylvz.github.io/
 scholar: https://scholar.google.com/citations?user=OktTyZMAAAAJ&hl=en&oi=ao
