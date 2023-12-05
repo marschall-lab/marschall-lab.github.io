@@ -58,6 +58,7 @@ necessary formatting.
 Markdown file under:
 
 `_people/`
+- do not have add newlines in the bio section, it throws errors.
 
 Portrait (PNG/JPG) under:
 
