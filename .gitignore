@@ -9,8 +9,4 @@ node_modules
 package.json
 notes.txt
 _site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-.bundle/
 vendor/
