@@ -10,3 +10,4 @@ package.json
 notes.txt
 _site/
 vendor/
+.website_env
