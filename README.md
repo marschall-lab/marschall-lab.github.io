@@ -45,12 +45,12 @@ If jekyll gives an error like the following:
 
 ```bash
 $ bundle exec jekyll
-/home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/jekyll: 6: exec: /home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/ruby: not found
+~/marschall-lab.github.io/website_env/share/rubygems/bin/jekyll: 6: exec: ~/marschall-lab.github.io/website_env/share/rubygems/bin/ruby: not found
 ```
 
 ... you can work around this garbage with the following hack (change the path to your home and environment directories):
 ```
-ln -fs /home/qwx/marschall-lab.github.io/.website_env/bin/ruby /home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/ruby
+ln -fs ~/marschall-lab.github.io/website_env/bin/ruby ~/marschall-lab.github.io/website_env/share/rubygems/bin/ruby
 ```
 
 Then try the previous jekyll command again.
