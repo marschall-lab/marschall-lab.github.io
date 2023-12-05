@@ -28,9 +28,9 @@ or equivalent, if they aren't already.
 
 ```bash
 gem install jekyll  # Simple, blog-aware, static site engine
-# gem install jekyll-paginate  # for multipage blog listings
-# gem install jekyll-feed  # for Atom (RSS-like) feed
-# gem install jekyll-sitemap  # for web crawlers
+gem install jekyll-paginate  # for multipage blog listings
+gem install jekyll-feed  # for Atom (RSS-like) feed
+gem install jekyll-sitemap  # for web crawlers
 ```
 
 #### 3. Build and serve the website
@@ -41,10 +41,26 @@ bundler install
 bundle exec jekyll build --watch --incremental
 ```
 
+If jekyll gives an error like the following:
+
 ```bash
-bundle exec jekyll serve --livereload
+$ bundle exec jekyll
+/home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/jekyll: 6: exec: /home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/ruby: not found
+```
+
+... you can work around this garbage with the following hack (change the path to your home and environment directories):
+```
+ln -fs /home/qwx/marschall-lab.github.io/.website_env/bin/ruby /home/qwx/marschall-lab.github.io/.website_env/share/rubygems/bin/ruby
+```
+
+Then try the previous jekyll command again.
+
+```bash
+bundle exec jekyll serve --livereload -P 4000
 # Server address: http://127.0.0.1:4000/
 ```
+
+Note the `http` and not `https`; you will get SSL errors if using the latter, which is now often injected into the url if not specifying explicitely the protocol in the address bar.
 
 #### 4. Adding content
 
@@ -58,7 +74,6 @@ necessary formatting.
 Markdown file under:
 
 `_people/`
-- do not have add newlines in the bio section, it throws errors.
 
 Portrait (PNG/JPG) under:
 
