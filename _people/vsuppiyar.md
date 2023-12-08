@@ -4,6 +4,7 @@ pub-names:
 - Suppiyar V
 degree: B. Sc.
 email: Vithusan.Suppiyar@hhu.de
+scholar: https://scholar.google.de/citations?user=kGXzV64AAAAJ
 github: visuu90
 orcid: 0009-0006-3236-9306
 role: Master's student
