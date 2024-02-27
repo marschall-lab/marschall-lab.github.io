@@ -48,11 +48,10 @@ function namefmt(s,	m, a, b, c, i, j){
 		split(a[i], b, " ")
 		if(m != "")
 			m = m ", "
-		for(j=2; j<=length(b); j++)
-			m = m " " b[j]
-		m = m " " substr(b[1], 1, 1)
+		j = index(a[i], " ")
+		m = m substr(a[i], j+1) " " substr(a[i], 1, 1)
 		if(i == 1)
-			first = b[1]
+			first = substr(a[i], 1, j-1)
 	}
 	return m
 }
