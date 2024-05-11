@@ -2,10 +2,12 @@ landing-news-posts: 2
 landing-pubs: 5
 
 landing-software:
+ - panacus
  - pangenie
- - whatshap
  - graphaligner
  - mbg
+ - panpa
+ - whatshap
 
 person-page-posts: 4
 person-page-projects: 4
