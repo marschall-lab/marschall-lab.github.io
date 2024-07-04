@@ -12,6 +12,6 @@ institutes:
 - hhu
 - ukd
 portrait: /img/vsuppiyar.jpg
-bio: Vithusan Suppiyar completed his B. Sc. in Interdisciplinary Natural Sciences with a focus on Biology at the Heinrich-Heine-University Düsseldorf in 2022. He wrote his bachelor’s thesis "Genome-wide identification and characterization of SET-domain containing genes in Solanum tuberosum" under the supervision of Dr. Venkata Suresh Bonthala and Prof. Dr. Benjamin Stich at the Institute of Quantitative Genetics and Genomics of Plants. He then joined Prof. Dr. Marschall’s group as a master’s student at the University Hospital of Düsseldorf. In his master’s thesis, Vithusan works with sequencing data obtained from long-read isoform sequencing (Iso-Seq) to uncover the transcriptional dynamics of cancer-associated genes. He is currently developing a computational pipeline, called IsoHunter for transcript identification and functional characterization of cancer-specific RNA isoforms in the novel regions of the first complete human reference genome T2T-CHM13.
-alum: false
+bio: Vithusan Suppiyar received his BSc in Interdisciplinary Natural Sciences with a focus on Biology in 2022 and his MSc in Biology with a focus on Bioinformatics in 2024, both from the Heinrich Heine University Düsseldorf. He is now a PhD student at the German Cancer Research Center (DKFZ) and is conducting his research at the Group for Cancer Bioinformatics and Multiomics under the supervision of Dr. David Koppstein. His primary research interests include long-read sequencing, computational pipeline development, and RNA isoform analysis.
+alum: true
 ---
