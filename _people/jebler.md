@@ -4,8 +4,10 @@ pub-names:
 - Ebler J
 degree: Dr. rer. nat
 email: ebler@hhu.de
-twitter: janaebler
+scholar: https://scholar.google.com/citations?user=FByk5YAAAAAJ&hl
 github: eblerjana
+orcid: 0000-0002-0382-3702
+twitter: janaebler
 role: PostDoc
 institutes:
 - hhu
